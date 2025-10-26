@@ -10,3 +10,13 @@ Post process `out.json` a bit, run 2-3 times, and visualize
 ```sh
 ./visualize.py processed.*.json
 ```
+
+## Results
+
+Using 3.15
+
+![Search Time Without Break](search_time_without_break.png)
+
+Using 3.15 with added `break`
+
+![Search Time With Break](search_time_with_break.png)
